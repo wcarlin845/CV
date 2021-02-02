@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+h1 {
+    color: deepskyblue;
+    font-size: 500%;
+}
+ul{ 
+    list-style: none;
+    font-size: 300%;
+    justify-content: space-evenly;}
+
+
+li{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 300%;
+}
+hr{
+    height: 2px;
+    background-color: paleturquoise;
+}
+.center{
+    width: 100%;
+    text-align: center;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact-info{
+    list-style: none;
+    display: flex
+}
+@media only screen and (max width: 600px) {
+    body, li{
+    overflow-wrap: initial;
+    color: red;
+    display: initial;
+    font-size: initial;
+    }
+}
