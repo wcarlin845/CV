@@ -38,11 +38,14 @@ img{
     list-style: none;
     display: flex
 }
-@media only screen and (max width: 600px) {
-    body, li{
-    overflow-wrap: initial;
-    color: red;
-    display: initial;
-    font-size: initial;
+
+@media screen and (max-width: 600px) {
+    .contact{
+        width: 100%;
+        text-align: center;
     }
-}
+    .contact-info{
+    display: initial;
+    text-align: center;
+    }
+    }
