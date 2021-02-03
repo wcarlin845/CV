@@ -1,10 +1,11 @@
 body {
-    background-color: black;
+    background-color: lightgray;
     margin: 0;
 }
 h1 {
-    color: deepskyblue;
+    color: black;
     font-size: 500%;
+    text-align: center;
 }
 ul{ 
     list-style: none;
@@ -13,20 +14,19 @@ ul{
 
 
 li{
-    color: white;
+    color:black;
 }
 p{
-    color: white;
+    color: black;
     font-size: 300%;
 }
-hr{
-    height: 2px;
-    background-color: paleturquoise;
-}
+
 .center{
     width: 100%;
     text-align: center;
-
+    background-image: url(Background.jpg);
+    background-size: 1980px 500px;
+    background-repeat: no-repeat ;
 }
 img{
     display: block;
@@ -49,3 +49,6 @@ img{
     text-align: center;
     }
     }
+.email{
+text-align: center;
+}
